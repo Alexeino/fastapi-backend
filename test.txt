@@ -1,0 +1,37 @@
+data={"name":"Manish","username":"alexeino","email":"test@email.com",
+"role":"ADMIN","account_type":"MANAGEMENT"}
+
+job={
+  "title": "Python Developer",
+  "description": "A Python Developer with 5 years of experience",
+  "location": "Pune",
+  "status": "OPEN",
+  "salary_range": "15 Lacs Per Anum",
+  "tags": [
+    "Python",
+"Python Developer"
+
+  ]
+}
+
+
+{
+  "title": "Python Developer",
+  "description": "A Python Developer with 5 years of experience",
+  "location": ["Pune","Delhi"],
+  "status": "OPEN",
+  "salary_range": "15 Lacs Per Anum",
+  "tags": [
+    "Python",
+"Python Developer"
+  ]
+}
+
+{
+  "name": "Manish",
+  "username": "admin",
+  "email": "admin@example.com",
+  "role": "CUSTOMER",
+  "account_type": "RECRUITER",
+  "password": "admin"
+}

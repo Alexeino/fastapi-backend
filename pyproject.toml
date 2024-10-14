@@ -1,0 +1,4 @@
+[tool.black]
+line-length = 88  # Default is 88, you can change this
+target-version = ['py38']  # You can specify the Python version
+skip-string-normalization = false  # True if you don't want to normalize string quotes
