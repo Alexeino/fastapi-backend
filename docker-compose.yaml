@@ -1,0 +1,19 @@
+services:
+  hirestream-db:
+    image: postgres
+    ports:
+      - "5433:5432"
+    environment:
+      - POSTGRES_USER=postgres
+      - POSTGRES_PASSWORD=postgres
+      - POSTGRES_DB=Hirestream
+    # restart: always
+  hirestream-backend:
+    depends_on:
+      - hirestream-db
+    build: 
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - 8000:10000
+    env_file: .env

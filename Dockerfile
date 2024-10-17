@@ -7,11 +7,9 @@ ENV PYTHONDONTWRITEBYTECODE=1 \
 
 # Install build dependencies
 RUN apk add --update --virtual .build-deps \
-    build-base \
     postgresql-dev \
-    python3-dev \
-    libpq
-
+    python3-dev
+    
 # Install pipenv
 RUN pip install pipenv
 
